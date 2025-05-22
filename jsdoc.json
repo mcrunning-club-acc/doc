@@ -1,0 +1,11 @@
+{
+  "source": {
+    "include": ["."],
+    "exclude": ["node_modules", "docs", ".github"]
+  },
+  "opts": {
+    "destination": "docs",
+    "recurse": true,
+    "template": "default"
+  }
+}
